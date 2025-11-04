@@ -9,6 +9,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.15.3"
-  }
+    "@tailwindcss/vite": "^4.1.16",
+    "astro": "^5.15.3",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16"
+  },
+  "description": "```sh npm create astro@latest -- --template basics ```",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
