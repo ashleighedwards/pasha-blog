@@ -28,10 +28,6 @@ nav a:hover {
     color: #1d4ed8;
 }
 
-main {
-    background: red;
-}
-
 .blog-post {
     border: 1px solid #eee;
     border-radius: 0.5rem;
@@ -46,9 +42,6 @@ main {
     gap: 40px 0;
     justify-items: center;
     padding: 40px;
-    background-image: url('/wood-image.jpeg');
-    background-repeat: repeat;
-    background-size: auto;
 }
 
 .post-blank {
@@ -78,12 +71,17 @@ main {
     color: #333;
     display: block;
     font-family: 'Georgia', serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     height: 100%;
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     width: 100%;
-    writing-mode: sideways-lr;
+    /*writing-mode: sideways-lr;*/
+}
+
+.post-date {
+    font-size: 0.5em;
 }
 
 
